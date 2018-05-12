@@ -26,7 +26,7 @@ public class FavouriteLabsAdapter extends ArrayAdapter<FavouriteLabs> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
 
         if (convertView == null){
-            convertView = inflter.from(getContext()).inflate(R.layout.activity_booking_details_listview,parent,false);
+            convertView = inflter.from(getContext()).inflate(R.layout.activity_favourite_labs_listview,parent,false);
         }
 
         favourite = getItem(position);

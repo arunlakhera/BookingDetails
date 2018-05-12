@@ -33,13 +33,13 @@
             />
     </RelativeLayout>
 
-   <TextView
-       android:id="@+id/textview_PathologyName"
-       android:layout_width="match_parent"
-       android:layout_height="wrap_content"
-       android:text="Dhanwantry Pathology"
-       android:textColor="#000000"
-       />
+    <TextView
+        android:id="@+id/textview_PathologyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dhanwantry Pathology"
+        android:textColor="#000000"
+        />
     <TextView
         android:id="@+id/textview_PathologyAdd"
         android:layout_width="match_parent"
