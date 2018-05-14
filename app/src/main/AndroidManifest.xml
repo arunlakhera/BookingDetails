@@ -19,7 +19,8 @@
         <activity android:name=".BookingDetailsActivity" />
         <activity android:name=".FavouriteLabsActivity" />
         <activity android:name=".WalletActivity" />
-        <activity android:name=".NotificationsActivity"></activity>
+        <activity android:name=".NotificationsActivity" />
+        <activity android:name=".ReferAndEarnActivity"></activity>
     </application>
 
 </manifest>

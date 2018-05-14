@@ -143,7 +143,7 @@ public class NotificationsActivity extends AppCompatActivity {
                 }
             }
         });
-        
+
     }
 
 }

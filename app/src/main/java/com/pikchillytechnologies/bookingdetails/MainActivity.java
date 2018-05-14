@@ -40,6 +40,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.btn_Notification).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, NotificationsActivity.class));
+            }
+        });
+
+        findViewById(R.id.btn_ReferAndEarn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ReferAndEarnActivity.class));
+            }
+        });
 
     }
 }
