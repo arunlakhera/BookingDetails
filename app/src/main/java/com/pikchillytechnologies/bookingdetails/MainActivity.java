@@ -25,5 +25,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, FavouriteLabsActivity.class));
             }
         });
+
+        findViewById(R.id.btn_wallet).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, WalletActivity.class));
+            }
+        });
+
     }
 }
