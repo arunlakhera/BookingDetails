@@ -26,12 +26,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.btn_wallet).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btn_Wallet).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this, WalletActivity.class));
             }
         });
+
+        findViewById(R.id.btn_Notification).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, NotificationsActivity.class));
+            }
+        });
+
 
     }
 }

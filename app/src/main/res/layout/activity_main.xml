@@ -23,9 +23,18 @@
         />
 
     <Button
-        android:id="@+id/btn_wallet"
+        android:id="@+id/btn_Wallet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Wallet"
         />
+
+    <Button
+        android:id="@+id/btn_Notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        />
+
+
 </LinearLayout>
