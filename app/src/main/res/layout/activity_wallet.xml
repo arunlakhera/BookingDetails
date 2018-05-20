@@ -10,8 +10,14 @@
         android:layout_height="wrap_content"
         >
 
+        <include layout="@layout/toolbar"
+            android:id="@+id/my_toolbar"
+            />
+
         <LinearLayout
             android:id="@+id/layout_top"
+
+            android:layout_below="@id/my_toolbar"
             android:layout_width="match_parent"
             android:layout_height="180dp"
             android:orientation="vertical"

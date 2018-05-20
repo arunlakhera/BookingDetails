@@ -11,9 +11,14 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <include layout="@layout/toolbar"
+            android:id="@+id/my_toolbar"
+            />
+
         <!-- Reminders -->
         <LinearLayout
             android:id="@+id/layout_Reminder_Lbl"
+            android:layout_below="@id/my_toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"

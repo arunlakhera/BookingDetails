@@ -11,14 +11,14 @@
         android:layout_height="wrap_content"
         tools:context=".BookingDetailsActivity">
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="#000000"/>
+        <include layout="@layout/toolbar"
+            android:id="@+id/my_toolbar"
+            />
+
 
         <ImageView
             android:id="@+id/iamgeview_bg"
+            android:layout_below="@id/my_toolbar"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             android:layout_alignParentTop="true"
