@@ -14,9 +14,6 @@ public class FavouriteLabsActivity extends AppCompatActivity {
     List<FavouriteLabs> favouriteList;
     FavouriteLabs favourite;
 
-    String mLabName;
-    String mLabAdd;
-    String mLabPin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

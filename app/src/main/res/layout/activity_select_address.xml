@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".SelectAddressActivity">
+
+    <TextView
+        android:id="@+id/txt_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A phebotomist will visit you to collect samples"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <ListView
+        android:id="@+id/listview_AddressList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txt_message"
+        />
+
+    <Button
+        android:id="@+id/btn_AddNewAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Address"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimary"
+        />
+</RelativeLayout>

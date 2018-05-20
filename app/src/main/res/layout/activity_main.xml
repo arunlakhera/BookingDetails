@@ -8,6 +8,31 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/usernameWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/passwordWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"/>
+
+    </android.support.design.widget.TextInputLayout>
+
     <Button
         android:id="@+id/btn_BookingDetail"
         android:layout_width="match_parent"
@@ -41,6 +66,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Refer And Earn"
+        />
+
+    <Button
+        android:id="@+id/btn_BookingDateTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Booking Date And Time"
+        />
+
+    <Button
+        android:id="@+id/btn_Calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calendar"
+        />
+
+    <Button
+        android:id="@+id/btn_Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
         />
 
 </LinearLayout>

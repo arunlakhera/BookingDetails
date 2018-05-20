@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CalendarActivity">
+
+    <!-- CalendarView with monday as first day and minmal and maximal day -->
+    <devs.mulham.horizontalcalendar.HorizontalCalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:textColorSelected="@color/colorPrimary"
+        app:textColorNormal="#000000"
+        app:selectorColor="@color/colorPrimary"
+        />
+
+
+</RelativeLayout>

@@ -20,7 +20,11 @@
         <activity android:name=".FavouriteLabsActivity" />
         <activity android:name=".WalletActivity" />
         <activity android:name=".NotificationsActivity" />
-        <activity android:name=".ReferAndEarnActivity"></activity>
+        <activity android:name=".ReferAndEarnActivity" />
+        <activity android:name=".BookingDateTimeActivity" />
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".SelectAddressActivity" />
+        <activity android:name=".AddNewAddressActivity"></activity>
     </application>
 
 </manifest>
