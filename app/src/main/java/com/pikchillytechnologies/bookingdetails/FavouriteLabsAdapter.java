@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -31,6 +33,8 @@ public class FavouriteLabsAdapter extends ArrayAdapter<FavouriteLabs> {
 
         favourite = getItem(position);
 
+
+
         TextView txtPathologyName = convertView.findViewById(R.id.textview_PathologyName);
         TextView txtPathologyAdd = convertView.findViewById(R.id.textview_PathologyAdd);
         TextView txtPathologyPincode = convertView.findViewById(R.id.textview_PathologyPinCode);
@@ -38,6 +42,7 @@ public class FavouriteLabsAdapter extends ArrayAdapter<FavouriteLabs> {
         txtPathologyName.setText(String.valueOf(favourite.getmLabName()));
         txtPathologyAdd.setText(String.valueOf(favourite.getmLabAddress()));
         txtPathologyPincode.setText(String.valueOf(favourite.getmPincode()));
+
 
         return convertView;
 

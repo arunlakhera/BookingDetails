@@ -35,7 +35,7 @@
                 android:layout_marginStart="10dp"
                 android:visibility="gone"
                 android:background="@drawable/back"/>
-            
+
             <TextView
                 android:id="@+id/toolbarTitle"
                 android:layout_centerInParent="true"
